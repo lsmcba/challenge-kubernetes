@@ -6,11 +6,11 @@
 
 > minikube status
 
-![minikube]()
+![minikube](https://github.com/lsmcba/challenge-kubernetes/blob/main/img/minikube_status.png)
 
 
 ### **Kubectl**
 
 > kubectl get nodes -o wide
 
-![kubectl]()
+![kubectl](https://github.com/lsmcba/challenge-kubernetes/blob/main/img/kubectl_get_nodes.png)
