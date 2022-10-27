@@ -1,9 +1,9 @@
-# Challenge 2 - Curso Kubernetes
+# Challenge 3 - Curso Kubernetes
 
 ## Creacion del pod-multicontenedor y descripcion del mismo con los contenedores creados.
 
-![yaml](https://github.com/lsmcba/challenge-kubernetes/blob/main/img/yaml.png)
+![pod_multicontenedor](https://github.com/lsmcba/challenge-kubernetes/blob/main/img/03-describe_pod-multicontenedor.png)
 
 ## Redireccionamiento por medio del port-forward y Pagina Web.
 
-![pod](https://github.com/lsmcba/challenge-kubernetes/blob/main/img/pods.png)
+![multiweb](https://github.com/lsmcba/challenge-kubernetes/blob/main/img/03-podmulti_web.png)
