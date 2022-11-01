@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: test-web
+  labels:
+    app: test-web-rs
+    tier: test-web
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      tier: test-web
+  template:
+    metadata:
+      labels:
+        tier: test-web
+    spec:
+      containers:
+      - name: test-web-pod
+        image: roxsross12/k8s_test_web:latest
