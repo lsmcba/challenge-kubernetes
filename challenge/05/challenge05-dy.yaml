@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: challenge05
+  labels:
+    app: challenge05
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: challenge05
+  template:
+    metadata:
+      labels:
+        app: challenge05
+    spec:
+      containers:
+      - name: challenge05-pod
+        image: roxsross12/k8s_test_web:latest
+        ports:
+        - containerPort: 80
