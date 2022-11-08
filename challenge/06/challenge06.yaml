@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: challenge06-pod
-        image: roxsross12/k8s_test_web:v2
+        image: roxsross12/k8s_test_web:v3
         ports:
         - containerPort: 80
