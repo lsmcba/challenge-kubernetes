@@ -4,7 +4,7 @@ metadata:
   name: guestbook
 spec:
   rules:
-  - host: www.guestbook.org
+  - host: www.leonardomoya.org
     http:
       paths:
       - path: /
